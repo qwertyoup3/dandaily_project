@@ -202,10 +202,10 @@ packages:
     dependency: transitive
     description:
       name: error_stack
-      sha256: ce2825abfb23ac75cb30bcf05303c714899a10a13e32058cd846058ba968576b
+      sha256: f1f14820500d6b1931756758f8e6e899a0a0829b8b926ba04f141791cdf7b79e
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.0"
+    version: "1.10.0"
   fake_async:
     dependency: transitive
     description:
@@ -534,18 +534,18 @@ packages:
     dependency: "direct main"
     description:
       name: nylo_framework
-      sha256: a8031b7e7008cfedb1834a3ba14da0dfef0d83806ad1721410722c4e27b4e604
+      sha256: c1188e3b04e4996945e811122a4dc304706c2240f2f487f5bedea3e943054964
       url: "https://pub.dev"
     source: hosted
-    version: "6.5.1"
+    version: "6.5.2"
   nylo_support:
     dependency: transitive
     description:
       name: nylo_support
-      sha256: "1861fc1a6761c60c1292224ab24c665e5f94a3a20b08acf0a49a6d3fadd817e7"
+      sha256: "5ea5c95264e09e321fb31a362cd5b240d1083a178e3558a19f0fd1bc67af29c9"
       url: "https://pub.dev"
     source: hosted
-    version: "6.13.1"
+    version: "6.14.0"
   package_config:
     dependency: transitive
     description:
@@ -694,10 +694,10 @@ packages:
     dependency: "direct main"
     description:
       name: scaffold_ui
-      sha256: c33a51cbdb90658b3d515dec5598c5c3ee7f903fa4dfc1c0c67b8a4425621d2d
+      sha256: "4e586ebb9ad01cb30900517e01ca1ba529c7296b06935dbf6ae71a990c9c89d2"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.7"
+    version: "1.1.8"
   shared_preferences:
     dependency: transitive
     description:
