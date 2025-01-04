@@ -19,13 +19,13 @@ dependencies:
   google_fonts: ^6.2.1
   analyzer: ^6.7.0
   intl: ^0.19.0
-  nylo_framework: ^6.5.2
+  nylo_framework: ^6.5.3
   pretty_dio_logger: ^1.4.0
   cupertino_icons: ^1.0.8
   path_provider: ^2.1.4
   flutter_local_notifications: ^18.0.1
   font_awesome_flutter: ^10.8.0
-  scaffold_ui: ^1.1.8
+  scaffold_ui: ^1.1.9
   flutter:
     sdk: flutter
   flutter_localizations:
