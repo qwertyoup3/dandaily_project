@@ -19,7 +19,7 @@ dependencies:
   google_fonts: ^6.2.1
   analyzer: ^6.7.0
   intl: ^0.19.0
-  nylo_framework: ^6.5.7
+  nylo_framework: ^6.5.9
   pretty_dio_logger: ^1.4.0
   cupertino_icons: ^1.0.8
   path_provider: ^2.1.4
@@ -33,7 +33,7 @@ dependencies:
 
 dev_dependencies:
   rename: ^3.0.2
-  flutter_launcher_icons: ^0.14.1
+  flutter_launcher_icons: ^0.14.3
   # The following line 'flutter_lints' activates a set of recommended lints for Flutter apps,
   # packages, and plugins designed to encourage good coding practices.
 #  flutter_lints: ^5.0.0

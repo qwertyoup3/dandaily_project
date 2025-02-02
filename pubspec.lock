@@ -178,10 +178,10 @@ packages:
     dependency: transitive
     description:
       name: dio
-      sha256: "5598aa796bbf4699afd5c67c0f5f6e2ed542afc956884b9cd58c306966efc260"
+      sha256: "253a18bbd4851fecba42f7343a1df3a9a4c1d31a2c1b37e221086b4fa8c8dbc9"
       url: "https://pub.dev"
     source: hosted
-    version: "5.7.0"
+    version: "5.8.0+1"
   dio_web_adapter:
     dependency: transitive
     description:
@@ -255,10 +255,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_launcher_icons
-      sha256: "31cd0885738e87c72d6f055564d37fabcdacee743b396b78c7636c169cac64f5"
+      sha256: bfa04787c85d80ecb3f8777bde5fc10c3de809240c48fa061a2c2bf15ea5211c
       url: "https://pub.dev"
     source: hosted
-    version: "0.14.2"
+    version: "0.14.3"
   flutter_local_notifications:
     dependency: "direct main"
     description:
@@ -369,10 +369,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_timezone
-      sha256: "6e6a0a9d0dfc049b209e01e1dee3efd5ff2ddf2375e9de86589761b244eb5a5f"
+      sha256: bc286cecb0366d88e6c4644e3962ebd1ce1d233abc658eb1e0cd803389f84b64
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.0"
+    version: "4.1.0"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -390,10 +390,10 @@ packages:
     dependency: transitive
     description:
       name: get_time_ago
-      sha256: "1a640756920c9332f7252d0be53faa95f2a5f313d88c6ddbfb5c5f2b3bc65458"
+      sha256: "1bf7bebe32e070e2a5aa9a84ee401c88895de337e9e168e70416ec3373771243"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.2"
+    version: "2.2.0"
   glob:
     dependency: transitive
     description:
@@ -534,18 +534,18 @@ packages:
     dependency: "direct main"
     description:
       name: nylo_framework
-      sha256: "805072f53e3d301a73146493718c627dfdb934a070a4a8e0028a7e6222b2c1ff"
+      sha256: "13def89949cd07445334bfc255777b1d8eb932b060c7c36d0f1bfe3eec49ec4c"
       url: "https://pub.dev"
     source: hosted
-    version: "6.5.7"
+    version: "6.5.9"
   nylo_support:
     dependency: transitive
     description:
       name: nylo_support
-      sha256: "63e678b035f9a79805a2383bc38d3dd9ea0145a449f3cbb5723ded85b9764626"
+      sha256: "9caed78495ccbb151fe36f73642973cb696099fa9414e00086198daee7d5b971"
       url: "https://pub.dev"
     source: hosted
-    version: "6.17.0"
+    version: "6.18.0"
   package_config:
     dependency: transitive
     description:

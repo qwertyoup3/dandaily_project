@@ -72,7 +72,8 @@ class ToastNotification extends StatelessWidget {
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                           ).bodyMedium(
-                              color: context.color.content.withAlpha((255.0 * 0.8).round())),
+                              color: context.color.content
+                                  .withAlpha((255.0 * 0.8).round())),
                         ),
                       ],
                     ),

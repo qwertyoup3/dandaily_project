@@ -34,7 +34,8 @@ class LightThemeColors implements ColorStyles {
   @override
   Color get buttonSecondaryBackground => const Color(0xff151925);
   @override
-  Color get buttonSecondaryContent => Colors.white.withAlpha((255.0 * 0.9).round());
+  Color get buttonSecondaryContent =>
+      Colors.white.withAlpha((255.0 * 0.9).round());
 
   // bottom tab bar
   @override
