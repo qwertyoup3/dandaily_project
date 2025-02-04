@@ -26,10 +26,10 @@ packages:
     dependency: transitive
     description:
       name: animate_do
-      sha256: "7a3162729f0ea042f9dd84da217c5bde5472ad9cef644079929d4304a5dc4ca0"
+      sha256: "6f088c57833bfd638ecea7154e0b3a127b7f82d8a849c5f637a9430f977da711"
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.4"
+    version: "3.3.6"
   app_badge_plus:
     dependency: transitive
     description:
@@ -202,10 +202,10 @@ packages:
     dependency: transitive
     description:
       name: error_stack
-      sha256: "9b4b685fbee04cc4a72f0791663caac5838585d32f83e15ab64f9c8957ec506b"
+      sha256: ffa61cf73940d61d501c97d14421a2ad7d3a2809fa38bb5c81ef3acee6f131a0
       url: "https://pub.dev"
     source: hosted
-    version: "1.10.1"
+    version: "1.10.2"
   fake_async:
     dependency: transitive
     description:
@@ -534,18 +534,18 @@ packages:
     dependency: "direct main"
     description:
       name: nylo_framework
-      sha256: "13def89949cd07445334bfc255777b1d8eb932b060c7c36d0f1bfe3eec49ec4c"
+      sha256: ac690b4210ee1ced977cbb25c61a413279a607c9137d208ca709377b41921c21
       url: "https://pub.dev"
     source: hosted
-    version: "6.5.9"
+    version: "6.5.10"
   nylo_support:
     dependency: transitive
     description:
       name: nylo_support
-      sha256: "9caed78495ccbb151fe36f73642973cb696099fa9414e00086198daee7d5b971"
+      sha256: "98d5e81e178f370bad7306e64d0f06c2212dd919ed783bd50fbce52a33dd3520"
       url: "https://pub.dev"
     source: hosted
-    version: "6.18.0"
+    version: "6.19.0"
   package_config:
     dependency: transitive
     description:
@@ -694,10 +694,10 @@ packages:
     dependency: "direct main"
     description:
       name: scaffold_ui
-      sha256: "01bddb7c1771822f35b8ebb88b1a486c2b96cd54053b6858d76c9c43c1fe5a56"
+      sha256: "343a7475903df8b13c7782c00f18561f309294b5b325e5e70d7551a1d1a40438"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.14"
+    version: "1.2.0"
   shared_preferences:
     dependency: transitive
     description:

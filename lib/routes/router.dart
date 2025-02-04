@@ -12,6 +12,10 @@ import 'package:nylo_framework/nylo_framework.dart';
 | Run the below in the terminal to add authentication to your project.
 | "dart run scaffold_ui:main auth"
 |
+| * [Tip] Add In-app Purchases 💳
+| Run the below in the terminal to add In-app Purchases to your project.
+| "dart run scaffold_ui:main iap"
+|
 | Learn more https://nylo.dev/docs/6.x/router
 |-------------------------------------------------------------------------- */
 
