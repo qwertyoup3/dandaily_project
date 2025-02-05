@@ -59,6 +59,10 @@ If you discover any security related issues, please email support@nylo.dev inste
 * [stensonb](https://github.com/stensonb)
 * [ruwiss](https://github.com/ruwiss)
 
+## Contributing
+
+Please see <a href="https://nylo.dev/docs/6.x/contributions" target="_BLANK">CONTRIBUTING</a> for details.
+
 ## Licence
 
 The MIT License (MIT). Please view the [License](https://github.com/nylo-core/nylo/blob/master/licence) File for more information.
