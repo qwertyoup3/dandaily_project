@@ -1,34 +1,20 @@
-import 'package:flutter/material.dart';
-import '/resources/widgets/splash_screen.dart';
-import '/bootstrap/app.dart';
 import '/config/providers.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 /* Boot
 |--------------------------------------------------------------------------
-| The boot class is used to initialize your application.
-| Providers are booted in the order they are defined.
+| The nylo method is called before the app is initialized.
+| The finished method is called after the app is initialized.
 |-------------------------------------------------------------------------- */
 
 class Boot {
-  /// This method is called to initialize Nylo.
   static Future<Nylo> nylo() async {
-    WidgetsFlutterBinding.ensureInitialized();
-
-    if (getEnv('SHOW_SPLASH_SCREEN', defaultValue: false)) {
-      runApp(SplashScreen.app());
-    }
-
     await _setup();
     return await bootApplication(providers);
   }
 
-  /// This method is called after Nylo is initialized.
-  static Future<void> finished(Nylo nylo) async {
-    await bootFinished(nylo, providers);
-
-    runApp(Main(nylo));
-  }
+  static Future<void> finished(Nylo nylo) async =>
+      await bootFinished(nylo, providers);
 }
 
 /* Setup

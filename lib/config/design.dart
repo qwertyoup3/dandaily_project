@@ -27,7 +27,7 @@ final TextStyle appFont = GoogleFonts.outfit();
 | Use the Logo() widget or Nylo.getAppLogo() display your logo
 | -------------------------------------------------------------------------- */
 
-final Widget logo = const Logo();
+Widget logo = const Logo();
 // File: resources/widgets/logo_widget.dart
 
 /* Loader
@@ -36,7 +36,7 @@ final Widget logo = const Logo();
 | Use the Loader() widget or Nylo.getAppLoader() display your loader
 | -------------------------------------------------------------------------- */
 
-final Widget loader = const Loader();
+Widget loader = const Loader();
 // File: resources/widgets/loader_widget.dart
 
 /* Toast Notification

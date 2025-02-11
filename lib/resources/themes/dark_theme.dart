@@ -22,10 +22,10 @@ ThemeData darkTheme(ColorStyles color) {
     brightness: Brightness.dark,
     datePickerTheme: DatePickerThemeData(
       headerForegroundColor: Colors.white,
-      weekdayStyle: TextStyle(color: Colors.white),
-      dayForegroundColor: MaterialStateProperty.resolveWith<Color?>(
-          (Set<MaterialState> states) {
-        if (states.contains(MaterialState.selected)) {
+      weekdayStyle: const TextStyle(color: Colors.white),
+      dayForegroundColor:
+          WidgetStateProperty.resolveWith<Color?>((Set<WidgetState> states) {
+        if (states.contains(WidgetState.selected)) {
           return Colors.black; // Color for selected date
         }
         return Colors.white; // Color for unselected dates
@@ -35,13 +35,13 @@ ThemeData darkTheme(ColorStyles color) {
       hourMinuteTextColor: Colors.white,
       dialTextColor: Colors.white,
       dayPeriodTextColor: Colors.white,
-      helpTextStyle: TextStyle(color: Colors.white),
+      helpTextStyle: const TextStyle(color: Colors.white),
       // For the AM/PM selector
-      dayPeriodBorderSide: BorderSide(color: Colors.white),
+      dayPeriodBorderSide: const BorderSide(color: Colors.white),
       // For the dial background
       dialBackgroundColor: Colors.grey[800],
       // For the input decoration if using text input mode
-      inputDecorationTheme: InputDecorationTheme(
+      inputDecorationTheme: const InputDecorationTheme(
         labelStyle: TextStyle(color: Colors.white),
         hintStyle: TextStyle(color: Colors.white70),
       ),

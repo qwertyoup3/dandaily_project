@@ -17,7 +17,7 @@ class TransparencyButton extends AppButton {
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      padding: EdgeInsets.symmetric(vertical: 10),
+      padding: const EdgeInsets.symmetric(vertical: 10),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       color: Colors.white.withAlpha((255.0 * 0.3).round()),
       elevation: 0,

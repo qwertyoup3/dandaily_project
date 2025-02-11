@@ -1,3 +1,6 @@
+import 'package:dandaily/resources/widgets/logo_widget.dart';
+import 'package:flutter/material.dart';
+import 'package:nylo_framework/nylo_framework.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'controller.dart';
 
@@ -20,5 +23,14 @@ class HomeController extends Controller {
 
   onTapX() async {
     await launchUrl(Uri.parse("https://x.com/nylo_dev"));
+  }
+
+  showAbout() {
+    showAboutDialog(
+      context: context!,
+      applicationName: getEnv('APP_NAME'),
+      applicationIcon: const Logo(),
+      applicationVersion: nyloVersion,
+    );
   }
 }
