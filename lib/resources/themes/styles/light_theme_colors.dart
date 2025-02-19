@@ -7,27 +7,27 @@ import '/resources/themes/styles/color_styles.dart';
 class LightThemeColors implements ColorStyles {
   // general
   @override
-  Color get background => const Color(0xFFFFFFFF);
+  Color get background => const Color.fromARGB(255, 255, 255, 255);
 
   @override
   Color get content => const Color(0xFF000000);
   @override
-  Color get primaryAccent => const Color(0xFF0045a0);
+  Color get primaryAccent => const Color.fromARGB(255, 129, 184, 154);
 
   @override
-  Color get surfaceBackground => Colors.white;
+  Color get surfaceBackground => const Color.fromARGB(255, 255, 255, 255);
   @override
   Color get surfaceContent => Colors.black;
 
   // app bar
   @override
-  Color get appBarBackground => Colors.blue;
+  Color get appBarBackground => Colors.white;
   @override
-  Color get appBarPrimaryContent => Colors.white;
+  Color get appBarPrimaryContent => Colors.black;
 
   // buttons
   @override
-  Color get buttonBackground => Colors.blue;
+  Color get buttonBackground => const Color.fromARGB(255, 129, 184, 154);
   @override
   Color get buttonContent => Colors.white;
 
@@ -43,17 +43,20 @@ class LightThemeColors implements ColorStyles {
 
   // bottom tab bar - icons
   @override
-  Color get bottomTabBarIconSelected => Colors.blue;
+  Color get bottomTabBarIconSelected =>
+      const Color.fromARGB(255, 129, 184, 154);
   @override
-  Color get bottomTabBarIconUnselected => Colors.black54;
+  Color get bottomTabBarIconUnselected => const Color.fromARGB(255, 55, 89, 75);
 
   // bottom tab bar - label
   @override
-  Color get bottomTabBarLabelUnselected => Colors.black45;
+  Color get bottomTabBarLabelUnselected =>
+      const Color.fromARGB(255, 129, 184, 154);
   @override
-  Color get bottomTabBarLabelSelected => Colors.black;
+  Color get bottomTabBarLabelSelected => const Color.fromARGB(255, 55, 89, 75);
 
   // toast notification
   @override
-  Color get toastNotificationBackground => Colors.white;
+  Color get toastNotificationBackground =>
+      const Color.fromARGB(255, 255, 255, 255);
 }

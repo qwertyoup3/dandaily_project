@@ -1,12 +1,11 @@
-import 'package:dandaily/resources/pages/login_page.dart';
 import 'package:flutter/material.dart';
-import '/app/controllers/controller.dart';
+import 'package:nylo_framework/nylo_framework.dart';
 
-class SplashScreenController extends Controller {
-  void navigateToHome(BuildContext context) {
-    Future.delayed(const Duration(seconds: 2), () {
+class SplashScreenController extends NyController {
+  void navigateToSignUp(BuildContext context) {
+    Future.delayed(const Duration(seconds: 3), () {
       if (context.mounted) {
-        Navigator.pushReplacementNamed(context, LoginPage.path);
+        Navigator.pushReplacementNamed(context, "/sign-up");
       }
     });
   }

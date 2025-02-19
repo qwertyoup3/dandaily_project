@@ -1,7 +1,10 @@
-import 'package:dandaily/resources/pages/login_page.dart';
-import 'package:dandaily/resources/pages/lupa_password_page.dart';
+import 'package:dandaily/resources/pages/dashboard_page.dart';
+import 'package:dandaily/resources/pages/sign_in_page.dart';
+import 'package:dandaily/resources/pages/sign_up_pages.dart';
 import 'package:dandaily/resources/pages/splash_screen_page.dart';
-import '/resources/pages/home_page.dart';
+import 'package:dandaily/resources/pages/todo_create_page.dart';
+import 'package:dandaily/resources/pages/todo_detail_page.dart';
+
 import 'package:nylo_framework/nylo_framework.dart';
 
 /* App Router
@@ -24,7 +27,9 @@ import 'package:nylo_framework/nylo_framework.dart';
 appRouter() => nyRoutes((router) {
       router.route(SplashScreenPage.path, (context) => SplashScreenPage(),
           initialRoute: true);
-      router.route(LoginPage.path, (context) => LoginPage());
-      router.route(LupaPasswordPage.path, (context) => LupaPasswordPage());
-      router.route(HomePage.path, (context) => HomePage());
+      router.add(TodoCreatePage.path);
+      router.add(UpdatedTodoDetailPage.path);
+      router.add(DashboardPage.path);
+      router.add(SignUpPage.path);
+      router.add(SignInPage.path);
     });

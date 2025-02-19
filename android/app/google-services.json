@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341008381689",
+    "project_id": "dandaily-todo",
+    "storage_bucket": "dandaily-todo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341008381689:android:5e3ef088081e8cfb2fd428",
+        "android_client_info": {
+          "package_name": "com.nylo.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-C7jBRSZdYLxkYcYAibRTodA0yNTTvz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
